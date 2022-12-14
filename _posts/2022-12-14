@@ -1,0 +1,12 @@
+---
+layout: post
+title: 네이버 영화 리뷰 감성 분류_review
+subtitle: NAVER Movie Review Sentiment Analysis
+category: NLP
+---
+# 목차
+1. 데이터 수집
+2. 데이터 정제
+3. 피처 엔지니어링
+4. 모델 학습
+5. 모델 평가
