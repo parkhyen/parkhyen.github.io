@@ -2,7 +2,6 @@
 layout: post
 title: 네이버 영화 리뷰 감성 분류_review
 subtitle: NAVER Movie Review Sentiment Analysis
-category: NLP
 tags: [nlp]
 ---
 
