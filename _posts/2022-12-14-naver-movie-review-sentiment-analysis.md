@@ -40,7 +40,8 @@ test_data.head(5)
 {% endhighlight %}
 
 train_data : 
-| | id | document | label |
+
+| id | document | label |
 | :--- | :--- | :--- | :--- |
 | 0 | 9976970 | 아 더빙.. 진짜 짜증나네요 목소리 | 0 |
 | 1 | 3819312 | 흠...포스터보고 초딩영화줄....오버연기조차 가볍지 않구나 | 1 |
@@ -49,7 +50,8 @@ train_data :
 | 4 | 6483659 | 사이몬페그의 익살스런 연기가 돋보였던 영화!스파이더맨에서 늙어보이기만 했던 커스틴 ... | 1 |
 
 test_data : 
-| | id | document | label |
+
+| id | document | label |
 | :--- | :--- | :--- | :--- |
 | 0	| 6270596	| 굳 ㅋ	| 1 |
 | 1	| 9274899	| GDNTOPCLASSINTHECLUB	| 0 |
@@ -93,7 +95,8 @@ train_data['document'] = train_data['document'].str.replace("[^ㄱ-ㅎㅏ-ㅣ가
 결과를 확인해보면 위의 train_data와 차이를 확인할 수 있습니다.
 
 Out : 
-| |	id	| document	| label |
+
+|	id	| document	| label |
 | :--- | :--- | :--- | :--- |
 | 0	| 9976970	| 아 더빙 진짜 짜증나네요 목소리	| 0 |
 | 1	| 3819312	| 흠포스터보고 초딩영화줄오버연기조차 가볍지 않구나	| 1 |
