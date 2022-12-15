@@ -11,6 +11,8 @@
 
 # Name of website
 title: parkhyeon's BLOG
+url: https://parkhyen.github.io
+baseurl: parkhyen
 
 # Your name to show in the footer
 author: Hyeon Su Park
