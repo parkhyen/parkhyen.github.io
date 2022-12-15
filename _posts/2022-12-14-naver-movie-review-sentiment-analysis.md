@@ -73,7 +73,7 @@ test_data.head(5)
 train_data['label'].value_counts().plot(kind = 'bar')
 {% endhighlight %}
 
-![graph](https://github.com/parkhyen/parkhyen.github.io/blob/d575135fc125c1c3c8f9745daccd3d05e933b784/assets/img/_posts/img_01.png)
+![graph](assets/img/_posts/img_01.png)
 
 그래프를 보면 긍정과 부정의 분포가 균일한 것을 확인할 수 있습니다.   
 <br>
@@ -100,10 +100,11 @@ train_data['document'] = train_data['document'].str.replace("[^ㄱ-ㅎㅏ-ㅣ가
 >| id | document | label |
 >| :--- | :--- | :--- | :--- |
 >| 0 | 9976970 | 아 더빙 진짜 짜증나네요 목소리 | 0 |
->| 1 | 3819312 | 흠포스터보고 초딩영화줄오버연기조차 가볍지 않구나	| 1 |
+>| 1 | 3819312 | 흠포스터보고 초딩영화줄오버연기조차 가볍지 않구나 | 1 |
 >| 2 | 10265843 | 너무재밓었다그래서보는것을추천한다 | 0 |
 >| 3 | 9045019 | 교도소 이야기구먼 솔직히 재미는 없다평점 조정 | 0 |
 >| 4 | 6483659 | 사이몬페그의 익살스런 연기가 돋보였던 영화스파이더맨에서 늙어보이기만 했던 커스틴 던... | 1 |
+
 <br>
 
 ### 공백만 있거나 빈 값을 가진 행이 있다면 null 값으로 변경
