@@ -73,7 +73,7 @@ test_data.head(5)
 train_data['label'].value_counts().plot(kind = 'bar')
 {% endhighlight %}
 
-![graph](./assets/img/_posts/img_01.png)
+![graph](./assets/img/posts/img_01.png)
 
 그래프를 보면 긍정과 부정의 분포가 균일한 것을 확인할 수 있습니다.   
 <br>
