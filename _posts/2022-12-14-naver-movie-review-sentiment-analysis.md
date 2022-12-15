@@ -42,7 +42,7 @@ test_data.head(5)
 
 >train_data : 
 >
->| id | document | label |
+>| | id | document | label |
 >| :--- | :--- | :--- | :--- |
 >| 0 | 9976970 | 아 더빙.. 진짜 짜증나네요 목소리 | 0 |
 >| 1 | 3819312 | 흠...포스터보고 초딩영화줄....오버연기조차 가볍지 않구나 | 1 |
@@ -52,7 +52,7 @@ test_data.head(5)
 
 >test_data : 
 >
->| id | document | label |
+>| | id | document | label |
 >| :--- | :--- | :--- | :--- |
 >| 0	| 6270596	| 굳 ㅋ	| 1 |
 >| 1	| 9274899	| GDNTOPCLASSINTHECLUB	| 0 |
@@ -97,7 +97,7 @@ train_data['document'] = train_data['document'].str.replace("[^ㄱ-ㅎㅏ-ㅣ가
 
 >Out : 
 >
->| id | document | label |
+>| | id | document | label |
 >| :--- | :--- | :--- | :--- |
 >| 0 | 9976970 | 아 더빙 진짜 짜증나네요 목소리 | 0 |
 >| 1 | 3819312 | 흠포스터보고 초딩영화줄오버연기조차 가볍지 않구나 | 1 |
